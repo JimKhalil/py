@@ -63,3 +63,12 @@ print (data, type(data))
 #untuk merubah input dengan casting data
 data_int = int(input("masukkan int"))
 print (data_int, type(data_int))
+
+#operasi pangkat **
+c = a**x
+
+#operasi modulus %
+d = a%x
+
+#operasi pembulatan kebaawah
+f = a//x 
