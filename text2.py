@@ -24,7 +24,17 @@ format_str = (f"nilai {a*b:,}")
 
 print(format_str)
 
-#harus import untuk menggunakan fungsi date
+"""
+format angka lain 
+
+bilangan bulat => binary bin() 
+bilangan bulat => octal oct()
+bilangan bulat => hexadecimal hex()
+
+ini dapat dimasukkan ke format string
+"""
+
+#harus import datetime untuk menggunakan fungsi date
 
 #kenapa jadi dt karena datetime diganti menjadi variable dt
 
@@ -34,6 +44,23 @@ print(hari_ini)
 
 print(f"hello {hari_ini:%A}")
 
-tanggal = dt.date(2005,10,10)
+tanggal1 = dt.date(2005,10,10)
 
-print(tanggal)
+print(tanggal1)
+
+print("input tanggal")
+#harus dijadikan int untuk dimasukkan ke dt.date
+#\t untuk tabs
+tanggal = int(input("tanggal \t: "))
+bulan = int(input("bulan \t\t: "))
+tahun = int(input("tahun \t\t: "))
+
+#format harus tahun-bulan-tanggal
+tanggal_lahir = dt.date(tahun,bulan,tanggal)
+print(f"Tanggal lahir anda : {tanggal_lahir}")
+
+#untuk mencari umur
+#.days untuk menghilankan days blablabla
+umur_hari = hari_ini - tanggal_lahir
+umur = umur_hari.days//365
+print(f"umur anda adalah : {umur} tahun")
