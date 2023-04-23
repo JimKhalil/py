@@ -64,3 +64,15 @@ print(f"Tanggal lahir anda : {tanggal_lahir}")
 umur_hari = hari_ini - tanggal_lahir
 umur = umur_hari.days//365
 print(f"umur anda adalah : {umur} tahun")
+
+nama = input("siapa nama ? ")
+
+#harus satu baris if elsenya 
+#kondisi tidak perlu tanda kurung
+
+if nama=="abi" : 
+    print("Muhammad Haris Maualana Koliq Abiansyah")
+    print(f"ini {nama}")
+    print("belajar python")
+else : 
+    print(f"kamu {nama}")
