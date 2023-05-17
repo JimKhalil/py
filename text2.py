@@ -64,3 +64,6 @@ print(f"Tanggal lahir anda : {tanggal_lahir}")
 umur_hari = hari_ini - tanggal_lahir
 umur = umur_hari.days//365
 print(f"umur anda adalah : {umur} tahun")
+
+
+
