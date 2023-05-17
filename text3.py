@@ -6,6 +6,7 @@ if nama=="abi" :
     print("Muhammad Haris Maualana Koliq Abiansyah")
     print(f"ini {nama}")
     print("belajar python")
+<<<<<<< HEAD
 #tidak ada else if adanya elif
 elif nama=="haris":
     print("hello world")
@@ -27,3 +28,7 @@ while a<6 :
     # harus dikasih counter
     # += itu menambahkan pada variablenya sendiri
     a+=1
+=======
+else : 
+    print(f"kamu {nama}")
+>>>>>>> 2d247c5f7b4f3db891fe5763d08a35a6db324489

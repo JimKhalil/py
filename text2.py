@@ -67,3 +67,7 @@ print(f"umur anda adalah : {umur} tahun")
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2d247c5f7b4f3db891fe5763d08a35a6db324489
