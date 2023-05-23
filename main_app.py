@@ -22,3 +22,14 @@ def hello_world2(nama,i,a) :
 hello_world2(nama,i,a)
 
 # def function(angka1=input('input1'), angka2=input 2)
+
+def tri_recursion(k):
+     if(k > 0):
+        result = k + tri_recursion(k - 1)
+        print(result)
+     else:
+        result = 0
+        return result
+
+print("\n\nRecursion Example Results")
+tri_recursion(6)
