@@ -51,3 +51,4 @@ while a<6 :
 
 else : 
     print(f"kamu {nama}")
+
